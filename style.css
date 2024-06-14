@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0.5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #54ac68;
+}
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #54ac68;
+}
+.btn{
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*** Home ***/
+#Home{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url(images/organic1.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home h1{
+    color: white;
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;
+}
+#Home p{
+    font-size: 15px;
+    color: #fff;
+   
+}
+#Home .input-group{
+    width: 40%;
+    justify-content: center;
+
+
+}
+
+.signin{
+    background-color: #54ac68;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2px 5px 2px 5px;
+}
+.signin:hover{
+    background-color: #54ac68;
+    color: white;
+}
+#About{
+    background: linear-gradient(to right, #71f38f,#54ac68);
+}
+#About h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+#Products{
+    background-color: #e5e5e5;                                                                           
+}
+#Products h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 700;
+}
+.card{
+    height: 430px;
+    background-color: #e5e5e5;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card a{
+    text-decoration: none;
+    padding: 3px 7px;
+    border: 1px solid green;
+    color: white;
+    background-color: #54ac68;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.2s;
+}
+#Contacts{
+    background-color: #71f38f;
+}
+.form-area{
+    padding: 2rem;
+    text-align: center;
+}
+.form-area input,textarea{
+    border: none!important;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.05);
+}
+.form-area input:focus, textarea:focus{
+    outline: 0!important;
+    box-shadow: none!important;
+    border: 1px solid #71f38f!important;
+}
+
+
+
+
